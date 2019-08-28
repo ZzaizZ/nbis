@@ -81,6 +81,10 @@ of the software.
 #include <stdio.h>
 #include <bozorth.h>
 
+int m1_xyt;
+int verbose_bozorth;
+int min_computable_minutiae;
+
 /***********************************************************************/
 void bz_comp(
 	int npoints,				/* INPUT: # of points */
