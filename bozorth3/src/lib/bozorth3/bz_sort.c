@@ -73,6 +73,11 @@ of the software.
 /* extern FILE * errorfp; */
 /* extern char * get_progname( void ); */
 
+int verbose_main;
+int verbose_load;
+FILE* errorfp;
+int max_minutiae;
+
 /***********************************************************************/
 int sort_quality_decreasing( const void * a, const void * b )
 {
